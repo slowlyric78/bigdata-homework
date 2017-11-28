@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="mrunit">
+    <CLASSES>
+      <root url="jar:///opt/apache-mrunit-1.1.0-hadoop2-bin/target/mrunit-1.1.0-hadoop2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar:///opt/apache-mrunit-1.1.0-hadoop2-bin/target/mrunit-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

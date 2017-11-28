@@ -1,0 +1,31 @@
+<project name="hadoopBasicHomework2" basedir=".">
+    <description>
+        Hadoop test sample runner
+    </description>
+    <!-- set global properties for this build -->
+    <property name="jarFile" value="target/hadoopBasicHomework2-1.0-SNAPSHOT.jar" />
+    <property name="classPath" value="target/lib/UserAgentUtils-1.20.jar" />
+    <property name="mainClass" value="com.epam.bd.LogFileAnalyzerDriver" />
+    <property name="hadoopBin" value="/opt/hadoop-2.8.2/bin/hadoop" />
+    <property name="yarnBin" value="/opt/hadoop-2.8.2/bin/yarn" />
+    <property name="inputDir" value="access_logs/input" />
+    <property name="outputDir" value="output" />
+
+    <target name="runTest">
+        <mkdir dir="${outputDir}" />
+        <exec dir="." executable="${hadoopBin}" output="${outputDir}/console.log">
+            <env key="ENABLE_DEBUG" value="false" />
+            <env key="HADOOP_CLASSPATH" value="${classPath}" />
+            <env key="YARN_USER_CLASSPATH" value="${classPath}" />
+            <arg line="jar ${jarFile} ${mainClass}" />
+            <arg line="${inputDir} ${outputDir}/result" />
+        </exec>
+    </target>
+
+    <target name="clean" description="clean up">
+        <delete dir="${outputDir}" />
+    </target>
+
+    <target name="run" depends="clean, runTest">
+    </target>
+</project>

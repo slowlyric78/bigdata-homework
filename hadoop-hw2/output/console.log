@@ -1,0 +1,613 @@
+17/11/21 17:16:38 INFO Configuration.deprecation: session.id is deprecated. Instead, use dfs.metrics.session-id
+17/11/21 17:16:38 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+17/11/21 17:16:38 WARN mapreduce.JobResourceUploader: Hadoop command-line option parsing not performed. Implement the Tool interface and execute your application with ToolRunner to remedy this.
+17/11/21 17:16:38 INFO input.FileInputFormat: Total input files to process : 1
+17/11/21 17:16:38 INFO mapreduce.JobSubmitter: number of splits:1
+17/11/21 17:16:38 INFO Configuration.deprecation: mapred.output.compression.codec is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.codec
+17/11/21 17:16:38 INFO Configuration.deprecation: mapred.output.compression.type is deprecated. Instead, use mapreduce.output.fileoutputformat.compress.type
+17/11/21 17:16:38 INFO Configuration.deprecation: mapred.textoutputformat.separator is deprecated. Instead, use mapreduce.output.textoutputformat.separator
+17/11/21 17:16:38 INFO Configuration.deprecation: mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+17/11/21 17:16:38 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_local1737840535_0001
+17/11/21 17:16:38 INFO mapreduce.Job: The url to track the job: http://localhost:8080/
+17/11/21 17:16:38 INFO mapreduce.Job: Running job: job_local1737840535_0001
+17/11/21 17:16:38 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+17/11/21 17:16:38 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/21 17:16:38 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+17/11/21 17:16:38 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+17/11/21 17:16:38 INFO mapred.LocalJobRunner: Waiting for map tasks
+17/11/21 17:16:38 INFO mapred.LocalJobRunner: Starting task: attempt_local1737840535_0001_m_000000_0
+17/11/21 17:16:39 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/21 17:16:39 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+17/11/21 17:16:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/11/21 17:16:39 INFO mapred.MapTask: Processing split: file:/home/arudak/Projects/bigdata-homework/hadoop-hw2/access_logs/input/000000:0+2924046
+17/11/21 17:16:39 INFO mapred.MapTask: (EQUATOR) 0 kvi 26214396(104857584)
+17/11/21 17:16:39 INFO mapred.MapTask: mapreduce.task.io.sort.mb: 100
+17/11/21 17:16:39 INFO mapred.MapTask: soft limit at 83886080
+17/11/21 17:16:39 INFO mapred.MapTask: bufstart = 0; bufvoid = 104857600
+17/11/21 17:16:39 INFO mapred.MapTask: kvstart = 26214396; length = 6553600
+17/11/21 17:16:39 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+Cannot parse number: -, using '0', log line: ip28 - - [24/Apr/2011:05:41:56 -0400] "GET /sun3/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip35 - - [24/Apr/2011:06:05:56 -0400] "GET /sun_ipc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip46 - - [24/Apr/2011:07:03:48 -0400] "GET /sunFAQ/serial/ HTTP/1.1" 304 - "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+Cannot parse number: -, using '0', log line: ip54 - - [24/Apr/2011:07:04:24 -0400] "GET /sun3/taac1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:07:23:31 -0400] "GET /faq/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip59 - - [24/Apr/2011:07:25:52 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:07:48:07 -0400] "GET /apache/manual/mod/mod_auth_dbm.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:08:10:07 -0400] "GET /~techrat/vw_spotters/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip75 - - [24/Apr/2011:08:14:28 -0400] "GET /~techrat/vw_spotters/vw_412detail.jpg HTTP/1.1" 304 - "http://samochodyswiata.pl/viewtopic.php?f=14&t=34288" "Opera/9.27 (Windows NT 6.0; U; pl)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:09:43:16 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip105 - - [24/Apr/2011:09:53:24 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-11.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:10:29:50 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip119 - - [24/Apr/2011:10:58:25 -0400] "GET /personal/vanagon.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip122 - - [24/Apr/2011:11:14:07 -0400] "GET /sunPICS/3_280/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:11:16:24 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip123 - - [24/Apr/2011:11:16:38 -0400] "GET /sunFAQ/faq_framebuffer/history_faq.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:12:03:06 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip120 - - [24/Apr/2011:12:24:45 -0400] "GET /vanagon/VanagonProTraining/DigiFant/014.jpg HTTP/1.1" 304 - "http://www.thesamba.com/vw/forum/viewtopic.php?t=255897&highlight=black+smoke" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbMYC/5.8.0.12304)"
+Cannot parse number: -, using '0', log line: ip120 - - [24/Apr/2011:12:24:45 -0400] "GET /vanagon/VanagonProTraining/DigiFant/015.jpg HTTP/1.1" 304 - "http://www.thesamba.com/vw/forum/viewtopic.php?t=255897&highlight=black+smoke" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbMYC/5.8.0.12304)"
+Cannot parse number: -, using '0', log line: ip120 - - [24/Apr/2011:12:24:46 -0400] "GET /vanagon/VanagonProTraining/DigiFant/016.jpg HTTP/1.1" 304 - "http://www.thesamba.com/vw/forum/viewtopic.php?t=255897&highlight=black+smoke" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 1.1.4322; .NET CLR 1.0.3705; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; AskTbMYC/5.8.0.12304)"
+Cannot parse number: -, using '0', log line: ip143 - - [24/Apr/2011:12:42:22 -0400] "GET /personal/links.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:12:49:31 -0400] "GET /sunFAQ/serial/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:12:58:53 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:03:38 -0400] "GET /personal/vwshow/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:03:41 -0400] "GET /sgi_indy/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:12:04 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:17:41 -0400] "GET /bogomips.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:20:18 -0400] "GET /news.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:20:33 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/paper.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/title4.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/sun_logo.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/ipx_grain2.jpg HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/sgi_logo.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/next_logo.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:20 -0400] "GET /images/digital_logo.gif HTTP/1.1" 304 - "http://216.128.67.44/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:21:44 -0400] "GET /sun_ipx/sparc_leds/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/ss5_1.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/pdf.gif HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss20/floppy.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/ss5_int.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/ss5_server.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:56 -0400] "GET /sun_ss5/ss5_jumpers.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:57 -0400] "GET /sun_ss5/ss5_rear.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:57 -0400] "GET /sun_ss5/ss5-newfan.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip147 - - [24/Apr/2011:13:21:57 -0400] "GET /sun_ss5/ss5-newfan2.jpg HTTP/1.1" 304 - "http://216.128.67.44/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; Creative AutoUpdate v1.40.01)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:23:08 -0400] "GET /sgiFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip154 - - [24/Apr/2011:13:23:23 -0400] "GET /~strabal/creations/dice.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:13:24:01 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:13:36:13 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [24/Apr/2011:13:38:48 -0400] "GET /sgi_indigo/indigo_block.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip166 - - [24/Apr/2011:13:50:52 -0400] "GET /personal/inventory.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:14:09:17 -0400] "GET /dec/declinks.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:14:22:39 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:14:45:07 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:15:16:39 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:15:44:34 -0400] "GET /dec/multia/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip54 - - [24/Apr/2011:15:48:24 -0400] "GET /faq/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:15:55:47 -0400] "GET /~techrat/ratrod/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [24/Apr/2011:15:57:38 -0400] "GET /apache/manual/images/home.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:33 -0400] "GET /sgiFAQ/sgi_img_cap.txt HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:38 -0400] "GET /sun_lx/sparcLX.pdf HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:40 -0400] "GET /sunFAQ/faq_vme/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:42 -0400] "GET /sgi_indy/index.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:47 -0400] "GET /sun_ss5/ss5_promo.pdf HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:52 -0400] "GET /apache/manual/mod/mod_imap.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [24/Apr/2011:17:02:58 -0400] "GET /~strabal/lucypics/fanfiction/role2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:17:28:54 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip242 - - [24/Apr/2011:17:43:05 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:18:15:36 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip255 - - [24/Apr/2011:18:18:43 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:19:02:03 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:19:48:39 -0400] "GET /sgi_indy/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:20:35:12 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:21:21:47 -0400] "GET /dec/multia/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip314 - - [24/Apr/2011:21:47:23 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip316 - - [24/Apr/2011:22:04:51 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:22:08:21 -0400] "GET /dec/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip318 - - [24/Apr/2011:22:12:52 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-17.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip323 - - [24/Apr/2011:22:28:22 -0400] "GET /sun_ipc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip328 - - [24/Apr/2011:22:46:54 -0400] "GET /~strabal/creations/realm1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:22:54:55 -0400] "GET /sun_ss10/ss10_feh.pdf HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip46 - - [24/Apr/2011:23:21:17 -0400] "GET /sun_lx/sparcLX.pdf HTTP/1.1" 304 - "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+Cannot parse number: -, using '0', log line: ip345 - - [24/Apr/2011:23:33:10 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [24/Apr/2011:23:41:31 -0400] "GET /sun_ipx/webserver.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:00:27:54 -0400] "GET /sun_ipx/speakerfan/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip359 - - [25/Apr/2011:00:59:34 -0400] "GET /sgi_indigo2/ HTTP/1.0" 304 - "http://en.wikipedia.org/wiki/SGI_Indigo%C2%B2_and_Challenge_M" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10.5; ja-JP-mac; rv:1.9.2.16) Gecko/20110319 Firefox/3.6.16"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:01:14:46 -0400] "GET /sun3/68882.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip366 - - [25/Apr/2011:01:44:31 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:02:01:18 -0400] "GET /sun3/clockchip/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip373 - - [25/Apr/2011:02:14:50 -0400] "GET /favicon.ico HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Google Desktop/5.9.1005.12335; http://desktop.google.com/)"
+Cannot parse number: -, using '0', log line: ip374 - - [25/Apr/2011:02:19:48 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:02:47:56 -0400] "GET /sun3/kernel/generic.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip380 - - [25/Apr/2011:02:50:51 -0400] "GET /~strabal/lucypics/fanfiction/destiny6.htm HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip382 - - [25/Apr/2011:02:52:22 -0400] "GET /~strabal/lucypics/xenatales.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:03:34:36 -0400] "GET /sunFAQ/sun3mousepad.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip112 - - [25/Apr/2011:04:14:27 -0400] "GET /sunFAQ/faq_vme/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip401 - - [25/Apr/2011:04:23:24 -0400] "GET /about.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip112 - - [25/Apr/2011:05:35:51 -0400] "GET /sun3/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip417 - - [25/Apr/2011:05:47:21 -0400] "GET /sun_ipx/speakerfan/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:05:59:29 -0400] "GET /faq/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:06:30:40 -0400] "GET /sgi_indigo/sgi_indigo.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip401 - - [25/Apr/2011:06:31:25 -0400] "GET /~strabal/lucypics/fanfiction/soul.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip437 - - [25/Apr/2011:07:26:54 -0400] "GET /bookmarks_public.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:07:32:54 -0400] "GET /~techrat/vw_spotters/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip316 - - [25/Apr/2011:07:42:54 -0400] "GET /index.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip448 - - [25/Apr/2011:08:18:57 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip381 - - [25/Apr/2011:08:39:25 -0400] "GET /sun3/hd.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip454 - - [25/Apr/2011:08:55:55 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-16.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip456 - - [25/Apr/2011:08:57:58 -0400] "GET /sun380/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:09:10:48 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:10:12:02 -0400] "GET /sun3/68882.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip467 - - [25/Apr/2011:10:16:56 -0400] "GET /%7Etechrat/ratrod/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip155 - - [25/Apr/2011:10:38:42 -0400] "GET /sunFAQ/faq_m68k/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Exabot/3.0; +http://www.exabot.com/go/robot)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:10:48:50 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:11:49:29 -0400] "GET /apache/manual/images/home.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip493 - - [25/Apr/2011:11:54:37 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:12:26:50 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:13:02:07 -0400] "GET /sgi_indigo2/i2_top_off.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:13:14:38 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:13:14:47 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:13:32:14 -0400] "GET /confaab/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:13:34:15 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/ipx_portrait.jpg HTTP/1.1" 304 - "http://host2/sun_ipx/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/ipx_guts.jpg HTTP/1.1" 304 - "http://host2/sun_ipx/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/ipx_pup.jpg HTTP/1.1" 304 - "http://host2/sun_ipx/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/ipx_cat.jpg HTTP/1.1" 304 - "http://host2/sun_ipx/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip515 - - [25/Apr/2011:13:36:21 -0400] "GET /sun_ipx/sun4_50.gif HTTP/1.1" 304 - "http://host2/sun_ipx/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:13:53:47 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip523 - - [25/Apr/2011:13:57:58 -0400] "GET  HTTP/1.1" 400 - "-" "-"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:14:02:21 -0400] "GET /about.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:14:04:28 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:14:14:48 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/111.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:14:22:59 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip225 - - [25/Apr/2011:14:38:19 -0400] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:15:00:53 -0400] "GET /sun380/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:15:02:17 -0400] "GET /sun3/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip537 - - [25/Apr/2011:15:06:23 -0400] "OPTIONS /next/ HTTP/1.1" 200 - "-" "Microsoft Office Protocol Discovery"
+Cannot parse number: -, using '0', log line: ip537 - - [25/Apr/2011:15:06:23 -0400] "OPTIONS /next/ HTTP/1.1" 200 - "-" "Microsoft Office Protocol Discovery"
+Cannot parse number: -, using '0', log line: ip46 - - [25/Apr/2011:15:17:31 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:15:27:21 -0400] "GET /sgi_indigo2/i2_front_open.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:15:40:59 -0400] "GET /dec/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:15:42:53 -0400] "GET /sunFAQ/serial/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:16:40:00 -0400] "GET /sgi_indigo2/i2_xz_card.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip575 - - [25/Apr/2011:16:49:55 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-18.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:17:20:39 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip590 - - [25/Apr/2011:17:45:21 -0400] "GET /sun_ipx/sparc_leds/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip594 - - [25/Apr/2011:17:49:21 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip599 - - [25/Apr/2011:17:59:50 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1 - - [25/Apr/2011:18:01:21 -0400] "GET /apache/manual/images/index.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "http://www.crowsons.com/puters/sparc.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5_1.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/pdf.gif HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss20/floppy.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5_server.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5_int.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5_rear.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5_jumpers.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5-newfan.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip540 - - [25/Apr/2011:18:06:22 -0400] "GET /sun_ss5/ss5-newfan2.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET4.0C; .NET CLR 3.0.30729)"
+Cannot parse number: -, using '0', log line: ip571 - - [25/Apr/2011:18:06:51 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip33 - - [25/Apr/2011:18:26:51 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip225 - - [25/Apr/2011:18:37:45 -0400] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:18:58:58 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip621 - - [25/Apr/2011:19:09:54 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip119 - - [25/Apr/2011:19:33:53 -0400] "GET /~strabal/creations/stories.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip221 - - [25/Apr/2011:19:34:22 -0400] "GET /~techrat/vw_spotters/vw_412detail.jpg HTTP/1.1" 304 - "http://www.samochodyswiata.pl/viewtopic.php?f=14&t=34288&p=600286" "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:19:41:37 -0400] "GET /~strabal/creations/dice.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:19:41:39 -0400] "GET /apache/manual/mod/mod_unique_id.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "http://www.google.com/url?sa=t&source=web&cd=1&ved=0CBUQFjAA&url=http%3A%2F%host1%2Fsgi_indigo2%2F&rct=j&q=sgi%20indigo2%20fans&ei=ldy1TZwVkr-BB9qdhTU&usg=AFQjCNErswbiFzmwiMdYz6G97WlyS1IABA" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_front.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_front_off.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_xz_card.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_front_open.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_top_off.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_isa_gio.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_top_rear.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip634 - - [25/Apr/2011:19:46:02 -0400] "GET /sgi_indigo2/i2_cpu.jpg HTTP/1.1" 304 - "http://host2/sgi_indigo2/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; GTB6.4; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C)"
+Cannot parse number: -, using '0', log line: ip640 - - [25/Apr/2011:19:55:04 -0400] "GET /images/sun_logo.gif HTTP/1.1" 304 - "http://author.euro.confirmit.com/confirm/wix/preview_p605563839.aspx?__poetid=(0%3A0-605565869%231385627071%2C%20170)&l=9&__pagemastername=Default Pagemaster" "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)"
+Cannot parse number: -, using '0', log line: ip639 - - [25/Apr/2011:19:55:23 -0400] "GET /confaab/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip650 - - [25/Apr/2011:20:34:23 -0400] "GET /dec/multia/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:20:36:51 -0400] "GET /~techrat/ratrod/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip658 - - [25/Apr/2011:20:52:51 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip666 - - [25/Apr/2011:21:07:24 -0400] "GET /personal/vanagon.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:21:37:12 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:22:14:45 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:23:05:04 -0400] "GET /sun_ipc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:23:06:43 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [25/Apr/2011:23:11:13 -0400] "GET /links.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip709 - - [25/Apr/2011:23:38:23 -0400] "GET /sun_ipx/hacks2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [25/Apr/2011:23:52:13 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip482 - - [25/Apr/2011:23:55:53 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-8.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip723 - - [26/Apr/2011:00:15:54 -0400] "GET /sunFAQ/411howto/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:09:41 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/096.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:11:13 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/101.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:12:01 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:17:53 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/126.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:18:32 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/126.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:18:35 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/125.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:20:29 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/126.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:20:31 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/125.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:20:33 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/124.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:01:21:34 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/113.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip744 - - [26/Apr/2011:01:28:05 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [26/Apr/2011:01:31:26 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip723 - - [26/Apr/2011:01:37:34 -0400] "GET /~strabal/lucypics/fanfiction/role2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:02:51:42 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/096.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:02:52:48 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/106.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:03:27 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/i.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:03:43 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/ii.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:05:38 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/ii.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:08:29 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/ii.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:08:32 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/iii.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:09:31 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/095.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:03:17:51 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/096.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip480 - - [26/Apr/2011:03:25:54 -0400] "GET /dec/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:03:28:23 -0400] "GET /sun_ipx/ulti_fan_hack/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip123 - - [26/Apr/2011:05:15:52 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip13 - - [26/Apr/2011:05:31:47 -0400] "GET /sunFAQ/faq_m68k/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip796 - - [26/Apr/2011:06:39:59 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip407 - - [26/Apr/2011:07:48:52 -0400] "GET /learnc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:12:55 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/095.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:13:03 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/096.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:13:11 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/097.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:14:17 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/098.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip814 - - [26/Apr/2011:08:24:52 -0400] "GET /sun3/taac2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:28:53 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/100.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:37:37 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/101.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:41:37 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/101.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [26/Apr/2011:08:49:51 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip829 - - [26/Apr/2011:09:43:21 -0400] "GET /sun3/outside.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:10:14:24 -0400] "GET /sun_ipx/hacks2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip839 - - [26/Apr/2011:10:17:23 -0400] "GET /news.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:10:20:05 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip849 - - [26/Apr/2011:11:05:34 -0400] "GET /sunFAQ/howto_framebuffer/Framebuffer-HOWTO-1.2-9.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip862 - - [26/Apr/2011:11:43:22 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip54 - - [26/Apr/2011:12:18:22 -0400] "GET /sunFAQ/X11_case/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip884 - - [26/Apr/2011:12:59:20 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip848 - - [26/Apr/2011:13:15:22 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:13:36:23 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:13:48:54 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:08:26 -0400] "GET /sgiFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:20:28 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:29:56 -0400] "GET /personal/inventory.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:35:04 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:57:16 -0400] "GET /sun_ipx/sparc_leds/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:14:57:41 -0400] "GET /bogomips.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/ HTTP/1.1" 304 - "http://www.stumbleupon.com/su/AZ0rkS/host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/ide.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/50pinscsi.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/scascsi.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/scsi.gif HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/68pinscsi.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:02 -0400] "GET /faq/sca_adapter_ondrive.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:03 -0400] "GET /faq/scsisetting.gif HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip1101 - - [26/Apr/2011:14:58:03 -0400] "GET /faq/sca_adapter.jpg HTTP/1.1" 304 - "http://host2/faq/" "Opera/9.80 (Windows NT 6.1; U; de) Presto/2.8.131 Version/11.10"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:15:00:20 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:15:03:18 -0400] "GET /sgi_indy/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:15:08:54 -0400] "GET /dec/declinks.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:15:10:25 -0400] "GET /news.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1121 - - [26/Apr/2011:15:16:26 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:15:56:16 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip123 - - [26/Apr/2011:16:52:53 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:16:54:11 -0400] "GET /dec/multia/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1156 - - [26/Apr/2011:17:03:01 -0400] "GET /sunPICS/sun3/sun3_60_side.jpg HTTP/1.1" 304 - "http://host2/sunPICS/" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/531.21.8 (KHTML, like Gecko) Version/4.0.4 Safari/531.21.10"
+Cannot parse number: -, using '0', log line: ip1157 - - [26/Apr/2011:17:06:53 -0400] "GET /faq/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1 - - [26/Apr/2011:17:38:18 -0400] "GET /sgi_indigo/indigo_cpu.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip247 - - [26/Apr/2011:17:44:21 -0400] "GET /sunFAQ/serial/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1 - - [26/Apr/2011:17:45:40 -0400] "GET /sgi_indigo2/i2_cpu.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip814 - - [26/Apr/2011:17:48:51 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1168 - - [26/Apr/2011:17:49:49 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1170 - - [26/Apr/2011:18:13:20 -0400] "GET /sun_ipx/ulti_fan_hack/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip98 - - [26/Apr/2011:19:18:51 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip112 - - [26/Apr/2011:20:15:21 -0400] "GET /sun380/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1203 - - [26/Apr/2011:20:22:50 -0400] "GET /sunFAQ/faq_nvram.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip119 - - [26/Apr/2011:20:39:19 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1233 - - [26/Apr/2011:22:28:35 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip122 - - [26/Apr/2011:22:51:03 -0400] "GET /about.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:23:26:26 -0400] "GET /sun3/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip242 - - [26/Apr/2011:23:34:34 -0400] "GET /sgi_indy/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:23:34:35 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [26/Apr/2011:23:51:10 -0400] "GET /personal/links.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1265 - - [27/Apr/2011:00:17:07 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1270 - - [27/Apr/2011:00:37:36 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+Cannot parse number: -, using '0', log line: ip1273 - - [27/Apr/2011:00:50:34 -0400] "GET /sunFAQ/X11_case/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:01:17:23 -0400] "GET /sun_lx/sparcLX.pdf HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1 - - [27/Apr/2011:02:15:11 -0400] "GET /sgi_indigo/indigo_graphics.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1294 - - [27/Apr/2011:02:46:33 -0400] "GET /sun3/inside.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:41:28 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:41:28 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:41:28 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:42:43 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:42:43 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:42:43 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:21 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:21 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:21 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:35 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:35 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:43:35 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:30 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:30 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:30 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:57 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:57 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:44:57 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:45:35 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/102.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:45:38 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/103.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip730 - - [27/Apr/2011:03:47:41 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/104.jpg HTTP/1.1" 304 - "http://www.loam.org/vw/Vanagon/VanagonProTraining/FuelSystems/pages.htm" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0)"
+Cannot parse number: -, using '0', log line: ip1 - - [27/Apr/2011:04:07:35 -0400] "GET /apache/manual/images/home.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip510 - - [27/Apr/2011:04:34:34 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip829 - - [27/Apr/2011:04:52:35 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:05:06:53 -0400] "GET /faq/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [27/Apr/2011:05:59:57 -0400] "GET /apache/manual/images/index.gif HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:06:36:18 -0400] "GET /~techrat/vw_spotters/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1 - - [27/Apr/2011:06:36:59 -0400] "GET /sgi_indigo2/i2_front_off.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip247 - - [27/Apr/2011:06:48:13 -0400] "GET /sun3/taac1.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1339 - - [27/Apr/2011:06:49:13 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1342 - - [27/Apr/2011:07:25:12 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sunFAQ/faq_nvram.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/sun4_75.gif HTTP/1.1" 304 - "http://host2/sun_ss2/" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/ss2_4.jpg HTTP/1.1" 304 - "http://host2/sun_ss2/" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/ss2_3.jpg HTTP/1.1" 304 - "http://host2/sun_ss2/" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/ss2_5.jpg HTTP/1.1" 304 - "http://host2/sun_ss2/" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:53 -0400] "GET /sun_ss2/ss2_2.jpg HTTP/1.1" 304 - "http://host2/sun_ss2/" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip1336 - - [27/Apr/2011:07:52:54 -0400] "GET /sunFAQ/sun-nvram.gif HTTP/1.1" 304 - "http://host2/sunFAQ/faq_nvram.html" "Mozilla/5.0 (Windows; U; WinNT4.0; en-US; rv:1.8.1.24) Gecko/20100228 SeaMonkey/1.1.19"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:07:56:20 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip59 - - [27/Apr/2011:08:08:45 -0400] "GET /~strabal/creations/objective2.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "http://images.yandex.ru/yandsearch?text=sun%20sparc%205&stype=image" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/ss5_1.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/pdf.gif HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss20/floppy.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/ss5_jumpers.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/ss5_int.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:47 -0400] "GET /sun_ss5/ss5_rear.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:48 -0400] "GET /sun_ss5/ss5-newfan2.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:48 -0400] "GET /sun_ss5/ss5_server.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:08:20:48 -0400] "GET /sun_ss5/ss5-newfan.jpg HTTP/1.1" 304 - "http://host2/sun_ss5/" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:09:21:51 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1367 - - [27/Apr/2011:10:01:12 -0400] "GET /~strabal/creations/objective4.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1372 - - [27/Apr/2011:10:14:52 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:35:51 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:37:39 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:37:41 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:39:50 -0400] "GET /sgiFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:43:42 -0400] "GET /sun_ipc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:44:36 -0400] "GET /dec/declinks.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:46:32 -0400] "GET /news.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:47:06 -0400] "GET /dec/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:10:47:11 -0400] "GET /sgi_indigo2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:48:11 -0400] "GET /links.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:51:28 -0400] "GET /sun_lx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:52:19 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:53:16 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:53:30 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:54:08 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:55:04 -0400] "GET /confaab/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:56:45 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:10:59:24 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:11:00:08 -0400] "GET /sun_ipx/ulti_fan_hack/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:11:02:32 -0400] "GET /dec/multia/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss20/floppy.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/pdf.gif HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5_1.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5_jumpers.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5-newfan.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5_int.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5-newfan2.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5_server.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1349 - - [27/Apr/2011:11:50:25 -0400] "GET /sun_ss5/ss5_rear.jpg HTTP/1.1" 304 - "http://webcache.googleusercontent.com/search?q=cache:LVYJO6OBNwAJ:host2/sun_ss5/+sparcstation+5+linux&cd=3&hl=ru&ct=clnk&gl=ru&source=www.google.ru" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.4)"
+Cannot parse number: -, using '0', log line: ip1400 - - [27/Apr/2011:12:05:40 -0400] "GET /sun_ipx/ulti_fan_hack/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:12:12:47 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip16 - - [27/Apr/2011:12:18:28 -0400] "GET /%7Estrabal/lucypics/main.html HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+Cannot parse number: -, using '0', log line: ip16 - - [27/Apr/2011:12:18:29 -0400] "GET /%7Estrabal/lucypics/BRAVAD~1.MID HTTP/1.0" 304 - "http://host2/%7Estrabal/lucypics/main.html" "Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)"
+Cannot parse number: -, using '0', log line: ip266 - - [27/Apr/2011:12:25:58 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)"
+Cannot parse number: -, using '0', log line: ip1419 - - [27/Apr/2011:13:08:43 -0400] "GET / HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip575 - - [27/Apr/2011:13:28:10 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:13:49:22 -0400] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:13:57:34 -0400] "GET /sun3/inside.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:02:01 -0400] "GET /confaab/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:29:31 -0400] "GET /sunFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:30:20 -0400] "GET /fc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1451 - - [27/Apr/2011:14:33:12 -0400] "GET /sunPICS/3_280/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1455 - - [27/Apr/2011:14:39:09 -0400] "GET /sunFAQ/faq_nvram.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:44:11 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:47:05 -0400] "GET /about.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:14:50:57 -0400] "GET /personal/vanagon.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:15:04:17 -0400] "GET /sun_ss10/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:15:21:52 -0400] "GET /sun3/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:15:57:47 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1479 - - [27/Apr/2011:16:07:34 -0400] "GET /%7Etechrat/how_to.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:16:29:25 -0400] "GET /sun_ipx/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:16:35:59 -0400] "GET /dec/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1 - - [27/Apr/2011:16:42:09 -0400] "GET /sgi_indigo/indigo_backplane.jpg HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexImages/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1342 - - [27/Apr/2011:17:36:02 -0400] "GET /~strabal/grease/photo4/grease4.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:17:55:02 -0400] "GET /~techrat/ratrod/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip448 - - [27/Apr/2011:19:08:09 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Baiduspider+(+http://www.baidu.com/search/spider.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:19:20:30 -0400] "GET /sgi_iris/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip1539 - - [27/Apr/2011:19:58:48 -0400] "GET /sunFAQ/faq_nvram.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:20:46:46 -0400] "GET /next/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip225 - - [27/Apr/2011:20:59:01 -0400] "GET / HTTP/1.0" 304 - "-" "Mozilla/5.0 (compatible; Yahoo! Slurp/3.0; http://help.yahoo.com/help/us/ysearch/slurp)"
+Cannot parse number: -, using '0', log line: ip871 - - [27/Apr/2011:22:12:15 -0400] "GET /sun_ss2/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip46 - - [27/Apr/2011:22:24:05 -0400] "GET /sunFAQ/faq_framebuffer/framebuffer.html HTTP/1.1" 304 - "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+Cannot parse number: -, using '0', log line: ip46 - - [27/Apr/2011:22:24:44 -0400] "GET /sunFAQ/faq_framebuffer/framebuffer.html HTTP/1.1" 304 - "-" "Sogou web spider/4.0(+http://www.sogou.com/docs/help/webmasters.htm#07)"
+Cannot parse number: -, using '0', log line: ip32 - - [27/Apr/2011:22:26:48 -0400] "GET /sunPICS/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1574 - - [27/Apr/2011:23:23:01 -0400] "GET /vanagon/VanagonProTraining/FuelSystems/113.jpg HTTP/1.1" 304 - "http://www.thesamba.com/vw/forum/viewtopic.php?t=311878" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
+Cannot parse number: -, using '0', log line: ip1574 - - [27/Apr/2011:23:23:01 -0400] "GET /vanagon/VanagonProTraining/DigiFant/029.jpg HTTP/1.1" 304 - "http://www.thesamba.com/vw/forum/viewtopic.php?t=311878" "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_5_8; en-us) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
+Cannot parse number: -, using '0', log line: ip13 - - [27/Apr/2011:23:37:21 -0400] "GET /sgi_indy/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip32 - - [28/Apr/2011:00:03:30 -0400] "GET /links.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1294 - - [28/Apr/2011:00:03:40 -0400] "GET /sun380/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip32 - - [28/Apr/2011:00:11:23 -0400] "GET /sun_ss5/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip470 - - [28/Apr/2011:00:11:33 -0400] "GET /faq/ HTTP/1.1" 304 - "http://www.google.com/url?sa=t&source=web&cd=3&ved=0CC4QFjAC&url=http%3A%2F%host1%2Ffaq%2F&rct=j&q=how%20to%20set%20scsi%20settings&ei=8mSzTZCSMePh0QHep6j9CA&usg=AFQjCNG92IvUm-kblugjnr6Gus98tF6pJQ" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; GTB6.6; SLCC1; .NET CLR 2.0.50727; Media Center PC 5.0; .NET CLR 3.5.30729; .NET CLR 3.0.30729; .NET CLR 1.1.4322; .NET4.0C; BRI/1; eMusic DLM/4; BRI/2)"
+Cannot parse number: -, using '0', log line: ip32 - - [28/Apr/2011:00:20:26 -0400] "GET /sun_ipc/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)"
+Cannot parse number: -, using '0', log line: ip1595 - - [28/Apr/2011:00:41:11 -0400] "GET /~strabal/creations/dice4.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+Cannot parse number: -, using '0', log line: ip1603 - - [28/Apr/2011:00:57:12 -0400] "GET /sunFAQ/faq_hardware/hwref1.html HTTP/1.1" 304 - "http://www.google.co.kr/url?sa=t&source=web&cd=31&ved=0CBsQFjAAOB4&url=http%3A%2F%host1%2FsunFAQ%2Ffaq_hardware%2Fhwref1.html&rct=j&q=SPARC%20V7%20SCHEMATIC&ei=c8i4Tf3-BoeIuAPJnM2iAw&usg=AFQjCNHR9JbRpSgxGWtmtOJ_UIqxKl0haQ&cad=rjt" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; GTB6.6; .NET4.0C; InfoPath.2)"
+Cannot parse number: -, using '0', log line: ip13 - - [28/Apr/2011:01:02:40 -0400] "GET /sgi_indigo/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)"
+Cannot parse number: -, using '0', log line: ip590 - - [28/Apr/2011:01:05:09 -0400] "GET /sgiFAQ/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: 
+17/11/21 17:16:39 INFO mapred.MapTask: Starting flush of map output
+17/11/21 17:16:39 INFO mapred.MapTask: Spilling map output
+17/11/21 17:16:39 INFO mapred.MapTask: bufstart = 0; bufend = 139215; bufvoid = 104857600
+17/11/21 17:16:39 INFO mapred.MapTask: kvstart = 26214396(104857584); kvend = 26160396(104641584); length = 54001/6553600
+17/11/21 17:16:39 INFO mapred.MapTask: Finished spill 0
+17/11/21 17:16:39 INFO mapred.Task: Task:attempt_local1737840535_0001_m_000000_0 is done. And is in the process of committing
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: map
+17/11/21 17:16:39 INFO mapred.Task: Task 'attempt_local1737840535_0001_m_000000_0' done.
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: Finishing task: attempt_local1737840535_0001_m_000000_0
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: map task executor complete.
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: Waiting for reduce tasks
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: Starting task: attempt_local1737840535_0001_r_000000_0
+17/11/21 17:16:39 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+17/11/21 17:16:39 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+17/11/21 17:16:39 INFO mapred.Task:  Using ResourceCalculatorProcessTree : [ ]
+17/11/21 17:16:39 INFO mapred.ReduceTask: Using ShuffleConsumerPlugin: org.apache.hadoop.mapreduce.task.reduce.Shuffle@7be41b1b
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: MergerManager: memoryLimit=334338464, maxSingleShuffleLimit=83584616, mergeThreshold=220663392, ioSortFactor=10, memToMemMergeOutputsThreshold=10
+17/11/21 17:16:39 INFO reduce.EventFetcher: attempt_local1737840535_0001_r_000000_0 Thread started: EventFetcher for fetching Map Completion Events
+17/11/21 17:16:39 INFO reduce.LocalFetcher: localfetcher#1 about to shuffle output of map attempt_local1737840535_0001_m_000000_0 decomp: 26308 len: 26312 to MEMORY
+17/11/21 17:16:39 INFO reduce.InMemoryMapOutput: Read 26308 bytes from map-output for attempt_local1737840535_0001_m_000000_0
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: closeInMemoryFile -> map-output of size: 26308, inMemoryMapOutputs.size() -> 1, commitMemory -> 0, usedMemory ->26308
+17/11/21 17:16:39 INFO reduce.EventFetcher: EventFetcher is interrupted.. Returning
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: finalMerge called with 1 in-memory map-outputs and 0 on-disk map-outputs
+17/11/21 17:16:39 INFO mapred.Merger: Merging 1 sorted segments
+17/11/21 17:16:39 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 26302 bytes
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: Merged 1 segments, 26308 bytes to disk to satisfy reduce memory limit
+17/11/21 17:16:39 WARN io.ReadaheadPool: Failed readahead on ifile
+EBADF: Bad file descriptor
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posix_fadvise(Native Method)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX.posixFadviseIfPossible(NativeIO.java:267)
+	at org.apache.hadoop.io.nativeio.NativeIO$POSIX$CacheManipulator.posixFadviseIfPossible(NativeIO.java:146)
+	at org.apache.hadoop.io.ReadaheadPool$ReadaheadRequestImpl.run(ReadaheadPool.java:208)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+17/11/21 17:16:39 INFO mapreduce.Job: Job job_local1737840535_0001 running in uber mode : false
+17/11/21 17:16:39 INFO mapreduce.Job:  map 100% reduce 0%
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: Merging 1 files, 26312 bytes from disk
+17/11/21 17:16:39 INFO reduce.MergeManagerImpl: Merging 0 segments, 0 bytes from memory into reduce
+17/11/21 17:16:39 INFO mapred.Merger: Merging 1 sorted segments
+17/11/21 17:16:39 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 26302 bytes
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/21 17:16:39 INFO compress.CodecPool: Got brand-new compressor [.snappy]
+17/11/21 17:16:39 INFO Configuration.deprecation: mapred.skip.on is deprecated. Instead, use mapreduce.job.skiprecords
+17/11/21 17:16:39 INFO mapred.Task: Task:attempt_local1737840535_0001_r_000000_0 is done. And is in the process of committing
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: 1 / 1 copied.
+17/11/21 17:16:39 INFO mapred.Task: Task attempt_local1737840535_0001_r_000000_0 is allowed to commit now
+17/11/21 17:16:39 INFO output.FileOutputCommitter: Saved output of task 'attempt_local1737840535_0001_r_000000_0' to file:/home/arudak/Projects/bigdata-homework/hadoop-hw2/output/result/_temporary/0/task_local1737840535_0001_r_000000
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: reduce > reduce
+17/11/21 17:16:39 INFO mapred.Task: Task 'attempt_local1737840535_0001_r_000000_0' done.
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: Finishing task: attempt_local1737840535_0001_r_000000_0
+17/11/21 17:16:39 INFO mapred.LocalJobRunner: reduce task executor complete.
+17/11/21 17:16:40 INFO mapreduce.Job:  map 100% reduce 100%
+17/11/21 17:16:40 INFO mapreduce.Job: Job job_local1737840535_0001 completed successfully
+17/11/21 17:16:40 INFO mapreduce.Job: Counters: 65
+	File System Counters
+		FILE: Number of bytes read=5923972
+		FILE: Number of bytes written=803925
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+	Map-Reduce Framework
+		Map input records=13501
+		Map output records=13501
+		Map output bytes=139215
+		Map output materialized bytes=26312
+		Input split bytes=144
+		Combine input records=13501
+		Combine output records=1616
+		Reduce input groups=1616
+		Reduce shuffle bytes=26312
+		Reduce input records=1616
+		Reduce output records=1616
+		Spilled Records=3232
+		Shuffled Maps =1
+		Failed Shuffles=0
+		Merged Map outputs=1
+		GC time elapsed (ms)=7
+		Total committed heap usage (bytes)=531628032
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	User Agent
+		Apple WebKit=263
+		CFNetwork=68
+		Chrome=26
+		Chrome 10=1323
+		Chrome 11=113
+		Chrome 12=38
+		Chrome 8=10
+		Chrome 9=3
+		Downloading Tool=5
+		Firefox 1.5=1
+		Firefox 2=29
+		Firefox 3=2841
+		Firefox 4=2618
+		Internet Explorer=12
+		Internet Explorer 5=5
+		Internet Explorer 5.5=10
+		Internet Explorer 6=201
+		Internet Explorer 7=374
+		Internet Explorer 8=1277
+		Internet Explorer 9=198
+		Konqueror=11
+		Mobile Robot/Spider=1
+		Mobile Safari=258
+		Mozilla=77
+		Opera=5
+		Opera 10=103
+		Opera 11=114
+		Opera 9=7
+		Opera Mini=24
+		Outlook 2007=2
+		Robot/Spider=2537
+		Safari 4=25
+		Safari 5=637
+		SeaMonkey=63
+		Unknown=222
+	File Input Format Counters 
+		Bytes Read=2924046
+	File Output Format Counters 
+		Bytes Written=33991
+User agent stats:
+Apple WebKit : 263
+CFNetwork : 68
+Chrome : 26
+Chrome 10 : 1323
+Chrome 11 : 113
+Chrome 12 : 38
+Chrome 8 : 10
+Chrome 9 : 3
+Downloading Tool : 5
+Firefox 1.5 : 1
+Firefox 2 : 29
+Firefox 3 : 2841
+Firefox 4 : 2618
+Internet Explorer : 12
+Internet Explorer 5 : 5
+Internet Explorer 5.5 : 10
+Internet Explorer 6 : 201
+Internet Explorer 7 : 374
+Internet Explorer 8 : 1277
+Internet Explorer 9 : 198
+Konqueror : 11
+Mobile Robot/Spider : 1
+Mobile Safari : 258
+Mozilla : 77
+Opera : 5
+Opera 10 : 103
+Opera 11 : 114
+Opera 9 : 7
+Opera Mini : 24
+Outlook 2007 : 2
+Robot/Spider : 2537
+Safari 4 : 25
+Safari 5 : 637
+SeaMonkey : 63
+Unknown : 222

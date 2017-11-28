@@ -1,0 +1,44 @@
+<project name="hadoopBasicHomework1" basedir=".">
+    <description>
+        Hadoop test sample runner
+    </description>
+    <!-- set global properties for this build -->
+    <property name="jarFile" value="target/hadoopBasicHomework1-1.0-SNAPSHOT.jar" />
+    <property name="mainClass" value="com.epam.bd.LongestWordMR" />
+    <property name="hadoopBin" value="/opt/hadoop-2.8.2/bin/hadoop" />
+    <property name="testFilesDir" value="target/test-classes/test-files" />
+    <property name="resultDir" value="target/result" />
+    <property name="outputSubDir" value="output" />
+
+    <!-- Macro to to run specific test set -->
+    <macrodef name="runTest">
+        <attribute name="testName" />
+
+        <sequential>
+            <mkdir dir="${resultDir}/@{testName}" />
+            <exec dir="." executable="${hadoopBin}" output="${resultDir}/@{testName}/@{testName}.log">
+                <env key="ENABLE_DEBUG" value="true" />
+                <arg line="jar ${jarFile} ${mainClass}" />
+                <arg line="${testFilesDir}/@{testName} ${resultDir}/@{testName}/${outputSubDir}" />
+            </exec>
+        </sequential>
+    </macrodef>
+
+    <target name="test1">
+        <runTest testName="test1" />
+    </target>
+
+    <target name="test2">
+        <runTest testName="test2" />
+    </target>
+
+    <target name="test3">
+        <runTest testName="test3" />
+    </target>
+
+    <target name="test" depends="clean, test1, test2, test3" />
+
+    <target name="clean" description="clean up">
+        <delete dir="${resultDir}" />
+    </target>
+</project>
