@@ -1,0 +1,7 @@
+external/**
+target/**
+out/**
+.idea/**
+data/**
+*.iml
+screens/**
