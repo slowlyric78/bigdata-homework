@@ -4,5 +4,5 @@ out/**
 .idea/**
 data/**
 *.iml
-screens/**
+screens*/**
 data/**
